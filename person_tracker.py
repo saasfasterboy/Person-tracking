@@ -15,7 +15,7 @@ CLASSES = ["background", "aeroplane", "bicycle", "bird", "boat",
            "sofa", "train", "tvmonitor"]
 
 
-ct = CentroidTracker(60, 60)
+ct = CentroidTracker(90, 90)
 
 def non_max_suppression_fast(boxes, overlapThresh):
     try:
