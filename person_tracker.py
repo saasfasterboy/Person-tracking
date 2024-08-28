@@ -59,7 +59,7 @@ def non_max_suppression_fast(boxes, overlapThresh):
 
 
 def main():
-    cap = cv2.VideoCapture('videos/test_video.mp4')
+    cap = cv2.VideoCapture('test_video.mp4') #provide the videos here 
     
     while True:
         ret, frame = cap.read()
